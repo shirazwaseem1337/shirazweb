@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>Introduction of mine</title>
+    <link rel="stylesheet" href="css/googleform.css" />
+    <link rel="stylesheet" href="/css/normalize.css" />
+  </head>
+  <body>
+    <form class="form-basic">
+      <label for="name">Your name</label
+      ><input
+        type="text"
+        required
+        minlength="3"
+        maxlength="20"
+        placeholder="Name"
+      /><br />
+      <label for="email">Email</label
+      ><input
+        type="Email address"
+        required
+        minlength="8"
+        maxlength="20"
+      /><br />
+      <p>Select your Gender:</p>
+      <select>
+        <optgroup label="Gender">
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Other">Other</option>
+        </optgroup>
+      </select>
+      <p>Select the range of your age</p>
+      <input type="radio" name="membership" id="Age" />
+      <label for="Age" class="label-inline">Under 18</label><br /><input
+        type="radio"
+        name="membership"
+        id="Age"
+      />
+      <label for="Age" class="label-inline">18-50</label><br /><input
+        type="radio"
+        name="membership"
+        id="Age"
+      />
+      <label for="Age" class="label-inline">50+</label><br />
+      <label for="name">Your Address</label
+      ><input type="text" required minlength="3" maxlength="20" /><br />
+      <textarea name="message" rows="5" cols="25">
+Any Suggestions you want to give
+        </textarea
+      >
+      <br />
+      <p>Please rate our form and website</p>
+      <input type="range" min="0" max="100" /><br />
+
+      <button type="submit">Submit</button>
+      <button type="clear">Clear</button>
+      <button type="button" onclick="alert('HELLO Thanks for clicking me')">
+        Click Me!
+      </button>
+    </form>
+  </body>
+</html>
